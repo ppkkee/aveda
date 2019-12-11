@@ -1,0 +1,214 @@
+/*아이폰 설정*/
+input {
+    -webkit-border-radius: 0;
+    -webkit-appearance: none;
+
+}
+
+input:checked[type="checkbox"] {
+    background-color: none;
+    -webkit-appearance: checkbox;
+}
+
+
+.center {
+    /*    width: 1200px;*/
+}
+
+/*
+header {
+    top: 0;
+    background-color: antiquewhite;
+    height: 90px;
+}
+*/
+
+#container {
+    /*    background-color: darkseagreen;*/
+    ;
+    margin-top: 9vh;
+    height: 900px;
+
+}
+
+.text {
+    float: left;
+    width: 50%;
+    margin-top: 250px;
+}
+
+.text > img {
+    float: right;
+}
+
+.login {
+    position: relative;
+    float: right;
+    width: 50%;
+    margin-top: 250px;
+}
+
+.login > .id,
+.login > .password {
+    display: block;
+    position: relative;
+
+}
+
+.login > .id > input,
+.login > .password > input {
+    background: none;
+    padding: 10px;
+    display: block;
+    left: 0;
+    width: 50%;
+    height: 44px;
+    border: 1px solid #facd89;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.login > .id > label,
+.login > .password > label {
+    position: absolute;
+    top: 0;
+    color: #facd89;
+    margin-left: 10px;
+    line-height: 44px;
+}
+
+#send {
+    margin-top: 20px;
+    width: 50%;
+    height: 55px;
+    background: #facd89;
+    border: 1px solid #f6b37f;
+    font-size: 20px;
+    color: white;
+}
+
+.info,
+.info2 {
+    margin: 25px 0;
+    color: #8d7a69;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+
+.join > span {
+    margin-right: 20px;
+}
+
+.join a {
+    color: #f8b551;
+}
+
+.info2 {
+    margin: 20px 0;
+
+}
+
+.logSns {
+    width: 50%;
+}
+
+.logSns > li {
+    float: left;
+    width: 46%;
+    text-align: center;
+
+
+
+}
+
+.logSns a {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    height: 40px;
+}
+
+.logSns img {
+    text-align: center;
+ 
+    
+
+}
+
+.logSns > .naver {
+    margin-right: 15px;
+}
+
+.logSns > .naver > a {
+    border: 1px solid #1dc800;
+}
+
+.logSns > .kakao > a {
+    border: 1px solid #ffec12;
+}
+
+
+@media screen and (max-width:1024px){
+    .center{
+        width: 100%;
+    }
+    .text {
+    float: left;
+    width: 50%;
+    margin-top: 250px;
+        padding-left: 0px;
+        box-sizing: border-box;
+}
+
+.text > img {
+    float: right;
+    width: 100%;
+}
+    
+}
+@media screen and (max-width:767px) {
+    .center {
+        width: 100%;
+    }
+    #container{
+        height: 800px;
+    }
+    .text {
+        display: block;
+        float: none;
+
+        /*        background-color: aquamarine;*/
+        text-align: center;
+        margin-top: 50px;
+        margin: 0 auto;
+    }
+
+    .text img {
+        float: none;
+        width: 100%;
+    }
+    .login{
+        width: 70%;
+    }
+    .login > .id > input,
+.login > .password > input {
+
+    width: 100%;}
+#send {
+
+    width: 100%;}
+    .login {
+        float: none;
+        margin: 0 auto;
+    }
+    .logSns {
+    width: 100%;
+}
+}
+@media screen and (max-width:500px){
+    .logSns>li{
+    width: 100%;
+        margin-bottom: 10px;
+}
+}

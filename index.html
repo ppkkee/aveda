@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/top_Aveda_logo.ico">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.bxslider2.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script> 
+        <script src="js/jquery.touchSwipe.min.js"></script>   	
+    <script src="js/all.js"></script>
+    <title>AVEDA::자연유래 헤어제품,샴푸,컨디셔너</title>
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <div class="center">
+            <div class="header">
+                <h1 class="logo"><a href="index.html"><img src="images/Aveda_logo_168x200.png" alt="logo"></a></h1>
+                <nav>
+                    <ul id="nav" class="mx">
+                        <li><a href="#">About</a>
+                            <ul class="navSub">
+                                <li><a href="#">AVEDA</a></li>
+                                <li><a href="#">미션&middot;헤리티지</a></li>
+                                <li><a href="#">지구의 달</a></li>
+                                <li><a href="#">so natural AVEDA</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Shop</a>
+                            <ul class="navSub">
+                                <li><a href="#">헤어</a></li>
+                                <li><a href="#">스타일링</a></li>
+                                <li><a href="#">스킨</a></li>
+                                <li><a href="#">바디</a></li>
+                                <li><a href="#">아로마</a></li>
+                                <li><a href="#">Gift</a></li>
+                                <li><a href="#">For man</a></li>
+                                <li><a href="#">Collection</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Event</a>
+                            <ul class="navSub">
+                                <li><a href="#">이벤트&middot;프로모션</a></li>
+                                <li><a href="#">공지사항</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">How-to</a>
+                            <ul class="navSub">
+                                <li><a href="#">뷰티</a></li>
+                                <li><a href="#">건강</a></li>
+                                <li><a href="#">환경</a></li>
+                                <li><a href="#">패션</a></li>
+                                <li><a href="#">아트</a></li>
+                                <li><a href="#">커뮤니티</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Store</a>
+                            <ul class="navSub">
+                                <li><a href="#">salon</a></li>
+                                <li><a href="#">store</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="smallAd"><a href="#"><img src="images/smallAd.png" alt="7만원이상 구매시 샘플4종 증정"></a></div>
+                </nav>
+                <div class="gnb mx">
+                    <ul class="gnb2">
+                        <li class="lan"><a href="#">KR</a><span><a href="#"><img src="images/btn_more.png" alt="more"></a></span>
+                            <ul class="gnbSub">
+                                <li><a href="#">KR</a></li>
+                                <li><a href="#">ENG</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><img src="images/btn_login.png" alt="log in"></a>
+                            <ul class="gnbSub">
+                                <li><a href="login.html">로그인</a></li>
+                                <li><a href="login.html">회원가입</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><img src="images/btn_cart.png" alt="cart"></a></li>
+
+
+                    </ul>
+
+                    <div class="form">
+                        <input type="radio" id="zoom" name="search" checked>
+                        <input type="radio" id="close" name="search" checked>
+                        <label for="zoom" class="zoomBtn"><img src="images/btn_search.png" alt="search"></label>
+                        <label for="close"><img src="images/btn_close.png" alt="close"></label>
+                        <label for="close" class="closeBtn"><img src="images/btn_close.png" alt=""></label>
+                        <div class="popSearch">
+                            <input type="text" id="text" class="textBox">
+                            <label for="text">컴퓨전 오일</label>
+                            <a href="#"><img src="images/btn_search.png" alt="search"></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="ham"><a href="#"><img src="images/btn_menu.png" alt="메뉴"></a></p>
+            </div>
+            <div class="wrap">
+                <div class="all wx" id=all>
+
+                    <p class="close"><a href="#"><img src="images/btn_close.png" alt="닫기 버튼"></a></p>
+                    <ul class="sub" id="modal">
+                        <li><a href="#">About</a>
+                            <ul class="sub2">
+                                <li><a href="#">aveda</a></li>
+                                <li><a href="#">미션/헤리티지</a></li>
+                                <li><a href="#">지구의 달</a></li>
+                                <li><a href="#">so natural AVEDA</a></li>
+                            </ul>
+                        </li>
+                        <li class="shop"><a href="#">Shop</a>
+                            <ul class="sub2">
+                                <li class="hair"><a href="#">헤어</a>
+                                    <ul class="sub3 clearFix">
+                                        <li><a href="#">샴푸</a></li>
+                                        <li><a href="#">컨디셔너</a></li>
+                                        <li><a href="#">컨디셔너</a></li>
+                                        <li><a href="#">두피케어</a></li>
+                                        <li><a href="#">헤어&amp;두피오일</a></li>
+                                        <li><a href="#">트리트먼트</a></li>
+                                        <li><a href="#">브러쉬</a></li>
+                                    </ul>
+                                </li>
+                                <li class="style"><a href="#">스타일링</a>
+                                    <ul class="sub3 clearFix">
+                                        <li><a href="#">스타일링-프랩</a></li>
+                                        <li><a href="#">토닉</a></li>
+                                        <li><a href="#">스타일링크림/파우더</a></li>
+                                        <li><a href="#">왁스/페이스트/포마드</a></li>
+                                        <li><a href="#">헤어스프레이</a></li>
+                                        <li><a href="#">샤인인핸서</a></li>
+                                        <li><a href="#">브러쉬</a></li>
+                                    </ul>
+                                </li>
+                                <li class="skin"><a href="#">스킨</a>
+                                    <ul class="sub3 clearFix">
+                                        <li><a href="#">클랜저/스크럽</a></li>
+                                        <li><a href="#">토너</a></li>
+                                        <li><a href="#">트리트먼트</a></li>
+                                        <li><a href="#">엑스폴리언트</a></li>
+                                        <li><a href="#">세럼/크림/로션</a></li>
+                                        <li><a href="#">썬케어</a></li>
+                                        <li><a href="#">마스크</a></li>
+                                    </ul>
+                                </li>
+                                <li class=body><a href="#">바디</a>
+                                    <ul class="sub3 clearFix">
+                                        <li><a href="#">클렌저/스크럽</a></li>
+                                        <li><a href="#">바디로션/크림/오일</a></li>
+                                        <li><a href="#">핸드&amp;풋 케어</a></li>
+                                        <li><a href="#">배스</a></li>
+                                        <li><a href="#">티</a></li>
+                                    </ul>
+                                </li>
+                                <li class="aroma"><a href="#">아로마</a>
+                                    <ul class="sub3 clearFix">
+                                        <li><a href="#">에센셜 오일</a></li>
+                                        <li><a href="#">캔들</a></li>
+                                    </ul>
+                                </li>
+                                <li class="gift"><a href="#">Gift</a>
+                                    <ul class="sub3 clearFix">
+                                        <li><a href="#">바디케어</a></li>
+                                        <li><a href="#">스킨케어</a></li>
+                                        <li><a href="#">헤어케어</a></li>
+                                        <li><a href="#">캔들</a></li>
+                                        <li><a href="#">5만원미만</a></li>
+                                        <li><a href="#">5만원이상</a></li>
+                                    </ul>
+                                </li>
+                                <li class="forman"><a href="#">For man</a>
+                                    <ul class="sub3 clearFix">
+                                        <li><a href="#">헤어케어</a></li>
+                                        <li><a href="#">스타일링</a></li>
+                                        <li><a href="#">스킨케어</a></li>
+                                        <li><a href="#">바디케어</a></li>
+                                    </ul>
+                                </li>
+                                <li class="collection"><a href="#">Collection</a>
+                                    <ul class="sub3 clearFix">
+                                        <li><a href="#">체리아몬드</a></li>
+                                        <li><a href="#">인바티 어드벤스드</a></li>
+                                        <li><a href="#">인바티 맨</a></li>
+                                        <li><a href="#">프라마사나</a></li>
+                                        <li><a href="#">샴퓨어</a></li>
+                                        <li><a href="#">로즈메리 민트</a></li>
+                                        <li><a href="#">데미지 레미디</a></li>
+                                        <li><a href="#">스무드 인퓨전</a></li>
+                                        <li><a href="#">드라이 레미디</a></li>
+                                        <li><a href="#">브릴리언트</a></li>
+                                        <li><a href="#">퓨어 어번던스</a></li>
+                                        <li><a href="#">라이트엘리먼트</a></li>
+                                        <li><a href="#">툴라사라</a></li>
+                                        <li><a href="#">보태니컬 키넥티스</a></li>
+                                        <li><a href="#">아우터피스</a></li>
+                                        <li><a href="#">울센서티브</a></li>
+                                        <li><a href="#">스트레스 픽스</a></li>
+                                        <li><a href="#">핸드릴리프</a></li>
+                                        <li><a href="#">풋릴리프</a></li>
+                                        <li><a href="#">뷰티파일</a></li>
+                                        <li><a href="#">싱글러 노트</a></li>
+                                        <li><a href="#">챠크라</a></li>
+                                        <li><a href="#">쿨링오일</a></li>
+                                        <li><a href="#">썬케어</a></li>
+                                        <li><a href="#">맨퓨어 포먼스</a></li>
+                                        <li><a href="#">트래블키트</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Event</a>
+                            <ul class="sub2">
+                                <li><a href="#">이벤트&middot;프로모션</a></li>
+                                <li><a href="#">공지사항</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="#">How-to</a>
+                            <ul class="sub2">
+                                <li><a href="#">뷰티</a></li>
+                                <li><a href="#">건강</a></li>
+                                <li><a href="#">환경</a></li>
+                                <li><a href="#">패션</a></li>
+                                <li><a href="#">아트</a></li>
+                                <li><a href="#">커뮤니티</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Store</a>
+                            <ul class="sub2">
+                                <li><a href="#">salon</a></li>
+                                <li><a href="#">store</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="allBg"></div>
+        </div>
+    </header>
+    <!--	container-->
+    <div id="container">
+        <div id="visual" class="scroll">
+
+            <ul class="slider">
+                <li class="slider1 active"><a href="#">1</a></li>
+                <li class="slider2"><a href="#">2</a></li>
+                <li class="slider3"><a href="#">3</a></li>
+            </ul>
+            <ul class="aBtn">
+                <li class="aBtn1"><a href="#">1</a></li>
+                <li class="aBtn2"><a href="#">2</a></li>
+            </ul>
+            <ul class="banner">
+                <li class="banner1"><a href="#">banner1</a></li>
+                <li class="banner2"><a href="#">banner2</a></li>
+                <li class="banner3"><a href="#">banner3</a></li>
+            </ul>
+            <p class="loveEarth"><img src="images/text_love_earth_25.png" alt="love earth"></p>
+            <p class="bannerBtn"><a href="#">아베다의 love earth 둘러보기</a></p>
+        </div>
+        <section class="new scroll">
+            <div class="bg">
+                <h2 class="blind">new item</h2>
+                <div class="center">
+
+                    <div class="newBanner">
+                        <input type="radio" id="newbtn1" name="abtn" checked>
+                        <input type="radio" id="newbtn2" name="abtn">
+
+                        <div id="content1" class="mx pcNew">
+                            <div class="left">
+                                <div class="newP">
+                                    <p class="leftBig">25</p>
+                                    <p class="leftMiddle">Fure</p>
+                                    <p class="leftMiddle">Flower</p>
+                                    <p class="leftMiddle">Aroma</p>
+                                    <p class="leftSmall">create pure moments of peace.</p>
+                                </div>
+                                <p><a href="#"><img src="images/new_item1.png" alt="컴포지션오일"></a></p>
+                            </div>
+                            <div class="right">
+                                <p class="newText">New</p>
+                                <h2 class="title">샴퓨어 컴포지션 오일</h2>
+
+                                <span>25가지 순수 꽃과 식물의 아로마가<br>여러분이 가장 사랑한<br>평화로운 순간을 선물합니다</span>
+                                <p class="newBtn"><a href="#">보러가기</a></p>
+
+                            </div>
+                        </div>
+                        <div id="content2" class="mx pcNew">
+                            <div class="left">
+                                <div class="newP">
+                                    <p class="leftBig">25</p>
+                                    <p class="leftMiddle">Fure</p>
+                                    <p class="leftMiddle">Flower</p>
+                                    <p class="leftMiddle">Aroma</p>
+                                    <p class="leftSmall">create pure moments of peace.</p>
+                                </div>
+                                <p><a href="#"><img src="images/new_item2.png" alt="드라이샴푸"></a></p>
+                            </div>
+                            <div class="right">
+                                <p class="newText">New</p>
+                                <h2 class="title">샴퓨어 드라이 샴푸</h2>
+
+                                <span>프레온 가스가 포함되지 않는<br>99.8% 자연 유래* 성분<br>파우더 미스트가 모발에<br>즉각적인 활기와 상쾌함을<br>더해줍니다.</span>
+                                <p class="newBtn"><a href="#">보러가기</a></p>
+
+                            </div>
+
+                        </div>
+                        <div id="content1" class="mNew wx">
+                            <div class="mNewText">New</div>
+                            <div class="mNewP">
+                                <p class="leftBig">25</p>
+                                <p class="leftMiddle">Fure Flower Aroma</p>
+                                <p class="leftSmall">create pure moments of peace.</p>
+                            </div>
+                            <div class="mNewSub">
+                                <h2 class="title">샴퓨어 컴포지션 오일</h2>
+
+                                <span>25가지 순수 꽃과 식물의 아로마가<br>여러분이 가장 사랑한<br>평화로운 순간을 선물합니다</span>
+                            </div>
+                            <div class="mNewImg">
+                                <p><a href="#"><img src="images/new_item1.png" alt="컴포지션오일"></a></p>
+                            </div>
+                            <div class="newBtn"><a href="#">보러가기</a>
+                            </div>
+                        </div>
+                        <div id="content2" class="mNew wx">
+                            <div class="mNewText">New</div>
+                            <div class="mNewP">
+                                <p class="leftBig">25</p>
+                                <p class="leftMiddle">Fure Flower Aroma</p>
+                                <p class="leftSmall">create pure moments of peace.</p>
+                            </div>
+                            <div class="mNewSub">
+                                <h2 class="title">샴퓨어 드라이 샴푸</h2>
+
+                                <span>프레온 가스가 포함되지 않는<br>99.8% 자연 유래* 성분<br>파우더 미스트가 모발에<br>즉각적인 활기와 상쾌함을 더해줍니다.</span>
+                            </div>
+                            <div class="mNewImg">
+                                <p><a href="#"><img src="images/new_item2.png" alt="드라이샴푸"></a></p>
+                            </div>
+                            <div class="newBtn"><a href="#">보러가기</a>
+                            </div>
+                        </div>
+
+
+                        <p class="newBtnAll">
+                            <label for="newbtn1" class="newAbtn newAbtn1">삼퓨어 컴포지션 오일</label>
+                            <label for="newbtn2" class="newAbtn newAbtn2">샴퓨어 드라이 샴푸</label>
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <div class="scroll ab">
+            <section class="ad clearFix">
+                <h2 class="blind">ad</h2>
+                <div class="center"><a href="#">
+                        <span class="saleIcon">
+                            <strong>15%<br>SALE</strong>
+                        </span>
+                        <p><strong>welcome price</strong>
+                            <span>공식몰 첫 구매시</span>
+                            <strong>15% 할인</strong>
+                        </p>
+
+                    </a>
+                </div>
+            </section>
+            <section class="bestSeller">
+                <h2 class="blind">best seller</h2>
+                <div class="center">
+                    <h2 class="title"><a href="#">Best seller</a></h2>
+                    <ul class="item clearFix">
+                        <li><a href="#">
+                                <img src="images/best1.png" alt="인바디 어드밴스드">
+                                <strong>인바디 어드밴스드<br>엑스폴리에이팅 샴푸</strong>
+                                <p>invati advances<br>exfolating shampoo</p>
+                                <span class="price">1L /</span>
+                                <span class="price2">₩135,000</span>
+                            </a></li>
+                        <li><a href="#">
+                                <img src="images/best2.png" alt="라이트엘리먼트">
+                                <strong>라이트 엘리먼트<br>스무딩 플루이드 로션에센스</strong>
+                                <p>light element<br>smoothing fluid essence</p>
+                                <span class="price">100ml /</span>
+                                <span class="price2">
+                                    ₩39,000</span>
+                            </a></li>
+                        <li><a href="#">
+                                <img src="images/best3.png" alt="아베다 우든 패들 브러쉬">
+                                <strong>아베다<br>우든 패들 브러쉬</strong>
+                                <p>AVEDA<br>wooden paddle brush</p>
+                                <span class="price2">
+                                    ₩36,000</span>
+
+                            </a></li>
+                        <li><a href="#">
+                                <img src="images/best4.png" alt="데미지 레미디 인텐시브">
+                                <strong>데미지 레미디 인텐시브<br>리스트럭쳐링 트리트먼트</strong>
+                                <p>damage remedy intensive<br> restructuring treatment</p>
+                                <span class="price">500ml /</span>
+                                <span class="price2">
+                                    ₩125,000</span>
+                            </a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <section class="earth scroll">
+            <h2 class="blind">지구의달 프로모션</h2>
+            <div class="center">
+
+                <h2 class="eLogo2 wx"><img src="images/earth_logo.png" alt="earth logo"></h2>
+                <div class="eLeft">
+                    <h2 class="eLogo mx"><img src="images/Aveda_logo_168x200.png" alt="earth logo"></h2>
+
+                    <p class="mx"><img src="images/text_show.png" alt="show your care"></p>
+                    <p class="mx"><img src="images/text_show2.png" alt="선물하세요 건강한 삶을"></p>
+                    <p class="mx"><img src="images/icon_waterdrop.png" alt="water"></p>
+                    <span class="mx">전세계 6억 6300만명이<br>깨끗한 물을 필요로 하고 있습니다.<br><strong>아베다 지구의 달 캠페인</strong>에 참여하여<br>나누어 주신 여러분의 기부금은<br>그들에게<strong>물과 건강, 행복</strong>을 선사합니다.</span>
+                    <p class="btn"><a href="#">더 자세한 사항은 avedakoread.com에서 확인하세요.<br>*charity water.org/global-water-crisis</a></p>
+                </div>
+                <div class="eRight">
+                    <h2 class="title">지구의 달<br>한정제품</h2>
+                    <span class="earthItem2 wx"><img src="images/earth_item_m.png" alt="지구의달 아이템"></span>
+                    <p class="subTitle">
+                        <span>지구의 달</span>
+                        <span>샴퓨어</span>
+                        <span>핸드 앤 바디 워시</span>
+                    </p>
+
+                    <p class="mx">
+                        <span>- 다양한 순수 꽃*식물 아로마 함유</span><br>
+                        <span>- 100% 재생용기</span>
+                    </p>
+                    <p class="mx ePrice">500ml/₩39,000</p>
+                    <p class="eNotice">*한정수량으로 조기 종료 될 수 있습니다.</p>
+                    <p class="earthBtn"><a href="#">구매하기</a></p>
+                    <span class="earthItem mx"><img src="images/aveda_img.png" alt="지구의달 아이템"></span>
+
+                </div>
+            </div>
+        </section>
+        <div class="scroll"></div>
+
+    </div>
+    <!--	footer-->
+    <footer>
+        <div class="center">
+            <div class="footerL">
+                <p>AVEDA KOREA</p>
+                <p><a href="tel:02-6971-3200">02-6971-3200</a></p>
+            </div>
+            <p class="footLogo mx"><img src="images/footer_logo.png" alt="foot logo"></p>
+            <div class="footerR">
+                <ul class="footMenu">
+                    <li><a href="#">아베다 살롱 오픈문의</a></li>
+                    <li><a href="#">아베다 퓨어프로</a></li>
+                    <li><a href="#">이메일문의</a></li>
+                    <li><a href="#">고객관리지원팀</a></li>
+                    <li><a href="#">채용정보</a></li>
+                </ul>
+                <ul class="sns">
+                    <li><a href="#"><img src="images/icon_facebook.png" alt="facebook"></a></li>
+                    <li><a href="#"><img src="images/icon_insta.png" alt="insta"></a></li>
+                    <li><a href="#"><img src="images/icon_youtube.png" alt="youtube"></a></li>
+                </ul>
+
+            </div>
+            <address>
+                <p>개인정보 처리 방침 이용약관 COPYRIGHT © AVEDA CORP. ALL RIGHTS RESERVED. </p>
+                <p>이엘씨에이한국(유) 대표 SLAVIN PAUL 서울시 강남구 강남대로 382 (역삼동) 메리츠타워9층, 06232 | 사업자등록번호: <a href="tel:211-81-71889">211-81-71889</a></p>
+                <p>통신판매업신고: 강남-15737호 | 사업자정보조회 | 에스크로 가입 확인 </p>
+                <p>고객관리지원팀 : <a href="tel:02-6971-3200">02-6971-3200</a> | user_support_kr@aveda.com | 호스팅서비스 사업자: ㈜엘지유플러스</p>
+            </address>
+        </div>
+    </footer>
+    <!--fix-->
+    <div class="fix wx">
+        <ul>
+            <li class="ham2"><a href="#"><img src="images/icon_fix_ham.png" alt="menu all"><span>메뉴</span></a></li>
+            <li class="fixSearch"><a href="#"><img src="images/icon_fix_search.png" alt="search"><span>검색</span></a></li>
+            <li class="fixLogin"><a href="login.html"><img src="images/icon_fix_mypage.png" alt="mypage"><span>로그인</span></a></li>
+            <li><a href="#"><img src="images/icon_fix_cart.png" alt="cart"><span>장바구니</span></a></li>
+
+        </ul>
+    </div>
+    <p class="topBtn"><a href="#"><img src="images/btn_top.png" alt="top"></a></p>
+</body></html>
