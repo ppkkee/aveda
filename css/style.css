@@ -798,8 +798,8 @@ nav:hover .smallAd {
     position: relative;
     background: #d3dee2;
     width: 560px;
-    height: 715px;
-    padding-top: 95px;
+    height: 80vh;
+    padding-top: 10vh;
     box-sizing: border-box;
     top: 93px;
 
@@ -823,7 +823,7 @@ nav:hover .smallAd {
 }
 
 .eLeft > p:nth-of-type(3) {
-    padding-bottom: 40px;
+    padding-bottom: 2vh
 }
 
 .eLeft > span {
@@ -834,7 +834,7 @@ nav:hover .smallAd {
 }
 
 .eLeft .btn {
-    padding-top: 55px;
+    padding-top: 2vh;
 
 }
 
@@ -854,7 +854,7 @@ nav:hover .smallAd {
 .eRight {
     position: absolute;
     right: 0;
-    top: 250px;
+    top: 18vh
     width: 50%;
 }
 
