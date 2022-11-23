@@ -1734,7 +1734,7 @@ address a {
   }
 
   footer {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
     height: 350px;
   }
 
